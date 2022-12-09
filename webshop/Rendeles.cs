@@ -8,14 +8,26 @@ namespace webshop
         private Termek[] kosar;
         private DateTime datum;
         private string cim;
+        private int osszeg;
+        private int id;
         
         //cím??
         //konstruktor?
+        
+        public int getID()
+        {
+            return id;
+        }
+        
+        public void setID(int id)
+        {
+            this.id = id;
+        }
 
         public Termek[] kosarMegtekintese()
         {
             //TODO
-            return null;
+            return kosar;
         }
 
         public void termekHozzaadasa(Termek termek)
@@ -26,6 +38,12 @@ namespace webshop
         public void termekTorlese(Termek termek)
         {
             //TODO
+        }
+
+        public int getOsszeg()
+        {
+            //TODO
+            return 0;
         }
     }
 }

@@ -50,6 +50,7 @@
         <Compile Include="Raktar.cs" />
         <Compile Include="Ram.cs" />
         <Compile Include="Rendeles.cs" />
+        <Compile Include="RendelesTarolo.cs" />
         <Compile Include="Szerencsekerek.cs" />
         <Compile Include="Termek.cs" />
         <Compile Include="Videokartya.cs" />
