@@ -12,7 +12,7 @@ namespace webshop
         //cím??
         //konstruktor?
 
-        Termek[] kosarMegtekintese()
+        public Termek[] kosarMegtekintese()
         {
             //TODO
             return null;

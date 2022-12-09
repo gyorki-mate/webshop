@@ -11,12 +11,12 @@
             this.sebesseg = sebesseg;
         }
 
-        int getMeret()
+        public int getMeret()
         {
             return meret;
         }
 
-        double getSebesseg()
+        public double getSebesseg()
         {
             return sebesseg;
         }

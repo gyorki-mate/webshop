@@ -7,5 +7,7 @@ TODO-k a functionök helyén, azokat kell kifejteni
 
 Kommentek ott ahol nem értem a tervet lmao
 
-Menuhöz nem nyúltam még
+* Tároló osztáyloknak nincs értelme, elég memóriába menteni
+* A függvényeket át lehet írni, hogy ne használjanak tárolót, csak argumentumba megadod ami kell neki
+
 

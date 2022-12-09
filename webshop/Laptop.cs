@@ -21,72 +21,72 @@
             this.mennyiseg = mennyiseg;
         }
 
-        Processzor getProcesszor()
+        public Processzor getProcesszor()
         {
             return processzor;
         }
 
-        void setProcesszor(Processzor processzor)
+        public void setProcesszor(Processzor processzor)
         {
             this.processzor = processzor;
         }
 
-        Videokartya getVideokartya()
+        public Videokartya getVideokartya()
         {
             return videokartya;
         }
 
-        void setVideokartya(Videokartya videokartya)
+        public void setVideokartya(Videokartya videokartya)
         {
             this.videokartya = videokartya;
         }
 
-        Ram getRam()
+        public Ram getRam()
         {
             return ram;
         }
 
-        void setRam(Ram ram)
+        public void setRam(Ram ram)
         {
             this.ram = ram;
         }
 
-        Hattertar getHattertar()
+        public Hattertar getHattertar()
         {
             return hattertar;
         }
 
-        void setHattertar(Hattertar hattertar)
+        public void setHattertar(Hattertar hattertar)
         {
             this.hattertar = hattertar;
         }
 
-        Kijelzo getKijelzo()
+        public Kijelzo getKijelzo()
         {
             return kijelzo;
         }
 
-        void setKijelzo(Kijelzo kijelzo)
+        public void setKijelzo(Kijelzo kijelzo)
         {
             this.kijelzo = kijelzo;
         }
 
-        double getSuly()
+        public double getSuly()
         {
             return suly;
         }
 
-        void setSuly(double suly)
+        public void setSuly(double suly)
         {
             this.suly = suly;
         }
 
-        int getMennyiseg()
+        public int getMennyiseg()
         {
             return mennyiseg;
         }
 
-        void setMennyiseg(int mennyiseg)
+        public void setMennyiseg(int mennyiseg)
         {
             this.mennyiseg = mennyiseg;
         }

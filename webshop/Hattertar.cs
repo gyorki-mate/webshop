@@ -11,12 +11,12 @@
             this.tipus = tipus;
         }
 
-        int getMeret()
+        public int getMeret()
         {
             return meret;
         }
 
-        string getTipus()
+        public string getTipus()
         {
             return tipus;
         }

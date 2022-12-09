@@ -13,17 +13,17 @@
             this.gyarto = gyarto;
         }
 
-        double getOrajel()
+        public double getOrajel()
         {
             return orajel;
         }
 
-        int getMagszam()
+        public int getMagszam()
         {
             return magSzam;
         }
 
-        string getGyarto()
+        public string getGyarto()
         {
             return gyarto;
         }

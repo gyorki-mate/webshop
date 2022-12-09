@@ -11,12 +11,12 @@
             this.orajel = orajel;
         }
 
-        int getMemoria()
+        public int getMemoria()
         {
             return memoria;
         }
 
-        double getOrajel()
+        public double getOrajel()
         {
             return orajel;
         }

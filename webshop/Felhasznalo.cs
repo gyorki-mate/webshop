@@ -12,7 +12,8 @@ namespace webshop
         private DateTime utolsoPorgetes;
         private string nyeremeny;
 
-        public Felhasznalo(string felhasznaloNev, string nev, DateTime szuldat, string jelszo, string tipus)
+        public Felhasznalo(string tipus = "vendeg", string felhasznaloNev = "", DateTime szuldat = default,
+            string jelszo = "", string nev = "")
         {
             this.felhasznaloNev = felhasznaloNev;
             this.nev = nev;
@@ -76,9 +77,19 @@ namespace webshop
             return nyeremeny;
         }
 
-        public void setNyeremeny(string nyeremeny)
+        public void porgetes(string[] nyeremények)
         {
-            this.nyeremeny = nyeremeny;
+            if (nyeremények.Length > 0)
+            {
+                Random rnd = new Random();
+                int nyeremenyIndex = rnd.Next(0, nyeremények.Length);
+                nyeremeny = nyeremények[nyeremenyIndex];
+                utolsoPorgetes = DateTime.Now;
+            }
+            else
+            {
+                Console.WriteLine("Nincs nyeremény");
+            }
         }
     }
 }
